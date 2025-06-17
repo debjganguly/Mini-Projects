@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Debjyoti's Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <input type="text" class="display" id="display" value="0" readonly />
+
+    <div class="buttons">
+      <div class="row">
+        <button type="button" class="button special" id="clear">Clr</button>
+        <button type="button" class="button special" id="delete">DEL</button>
+        <button type="button" class="button operator" id="percent">%</button>
+        <button type="button" class="button operator" id="divide">÷</button>
+      </div>
+
+      <div class="row">
+        <button type="button" class="button number" id="seven">7</button>
+        <button type="button" class="button number" id="eight">8</button>
+        <button type="button" class="button number" id="nine">9</button>
+        <button type="button" class="button operator" id="multiply">×</button>
+      </div>
+
+      <div class="row">
+        <button type="button" class="button number" id="four">4</button>
+        <button type="button" class="button number" id="five">5</button>
+        <button type="button" class="button number" id="six">6</button>
+        <button type="button" class="button operator" id="subtract">−</button>
+      </div>
+
+      <div class="row">
+        <button type="button" class="button number" id="one">1</button>
+        <button type="button" class="button number" id="two">2</button>
+        <button type="button" class="button number" id="three">3</button>
+        <button type="button" class="button operator" id="add">+</button>
+      </div>
+
+      <div class="row">
+        <button type="button" class="button number" id="zero">0</button>
+        <button type="button" class="button number" id="decimal">.</button>
+        <button type="button" class="button equals" id="equals">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
